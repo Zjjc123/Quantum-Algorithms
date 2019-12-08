@@ -1,0 +1,389 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "Microsoft.Quantum.Development.Kit/0.10.1912.501": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Quantum.Simulators": "0.10.1912.501"
+        },
+        "build": {
+          "build/Microsoft.Quantum.Development.Kit.props": {},
+          "build/Microsoft.Quantum.Development.Kit.targets": {}
+        }
+      },
+      "Microsoft.Quantum.Simulators/0.10.1912.501": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Quantum.Intrinsic.dll": {},
+          "lib/netstandard2.1/Microsoft.Quantum.Simulation.Common.dll": {},
+          "lib/netstandard2.1/Microsoft.Quantum.Simulation.Core.dll": {},
+          "lib/netstandard2.1/Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.dll": {},
+          "lib/netstandard2.1/Microsoft.Quantum.Simulators.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Quantum.Intrinsic.dll": {},
+          "lib/netstandard2.1/Microsoft.Quantum.Simulation.Common.dll": {},
+          "lib/netstandard2.1/Microsoft.Quantum.Simulation.Core.dll": {},
+          "lib/netstandard2.1/Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.dll": {},
+          "lib/netstandard2.1/Microsoft.Quantum.Simulators.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/Microsoft.Quantum.Simulator.Runtime.dll": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-x64/native/Microsoft.Quantum.Simulator.Runtime.dll": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/native/Microsoft.Quantum.Simulator.Runtime.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/vcomp140.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          }
+        }
+      },
+      "Microsoft.Quantum.Standard/0.10.1912.501": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Quantum.Development.Kit": "0.10.1912.501"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Quantum.Standard.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Quantum.Standard.dll": {}
+        }
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Quantum.Development.Kit/0.10.1912.501": {
+      "sha512": "nfGDF6JV8hV+Rnuaf7xxb3YcE/dcaA1WkqQaTT6oGVCphxGGXPEmDpGMCIgDUNXSKfbDP9WM0RV+NL3NoVDN1g==",
+      "type": "package",
+      "path": "microsoft.quantum.development.kit/0.10.1912.501",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotice.txt",
+        "build/Microsoft.Quantum.Development.Kit.props",
+        "build/Microsoft.Quantum.Development.Kit.targets",
+        "build/QSharp.ProjectItemsSchema.xaml",
+        "build/QSharp.xaml",
+        "microsoft.quantum.development.kit.0.10.1912.501.nupkg.sha512",
+        "microsoft.quantum.development.kit.nuspec",
+        "tools/qsc/CommandLine.dll",
+        "tools/qsc/FParsec.dll",
+        "tools/qsc/FParsecCS.dll",
+        "tools/qsc/FSharp.Core.dll",
+        "tools/qsc/Markdig.dll",
+        "tools/qsc/Microsoft.CodeAnalysis.CSharp.Workspaces.dll",
+        "tools/qsc/Microsoft.CodeAnalysis.CSharp.dll",
+        "tools/qsc/Microsoft.CodeAnalysis.Features.dll",
+        "tools/qsc/Microsoft.CodeAnalysis.FlowAnalysis.Utilities.dll",
+        "tools/qsc/Microsoft.CodeAnalysis.Workspaces.dll",
+        "tools/qsc/Microsoft.CodeAnalysis.dll",
+        "tools/qsc/Microsoft.DiaSymReader.dll",
+        "tools/qsc/Microsoft.Quantum.CsharpGeneration.App.deps.json",
+        "tools/qsc/Microsoft.Quantum.CsharpGeneration.App.dll",
+        "tools/qsc/Microsoft.Quantum.CsharpGeneration.App.exe",
+        "tools/qsc/Microsoft.Quantum.CsharpGeneration.App.runtimeconfig.json",
+        "tools/qsc/Microsoft.Quantum.CsharpGeneration.App.xml",
+        "tools/qsc/Microsoft.Quantum.CsharpGeneration.dll",
+        "tools/qsc/Microsoft.Quantum.CsharpGeneration.xml",
+        "tools/qsc/Microsoft.Quantum.QsCompilationManager.dll",
+        "tools/qsc/Microsoft.Quantum.QsCompiler.dll",
+        "tools/qsc/Microsoft.Quantum.QsCore.dll",
+        "tools/qsc/Microsoft.Quantum.QsDataStructures.dll",
+        "tools/qsc/Microsoft.Quantum.QsDocumentationParser.dll",
+        "tools/qsc/Microsoft.Quantum.QsOptimizations.dll",
+        "tools/qsc/Microsoft.Quantum.QsSyntaxProcessor.dll",
+        "tools/qsc/Microsoft.Quantum.QsTextProcessor.dll",
+        "tools/qsc/Microsoft.Quantum.QsTransformations.dll",
+        "tools/qsc/Microsoft.Quantum.RoslynWrapper.dll",
+        "tools/qsc/Microsoft.Quantum.RoslynWrapper.dll.config",
+        "tools/qsc/Microsoft.Quantum.RoslynWrapper.xml",
+        "tools/qsc/Microsoft.VisualStudio.LanguageServer.Protocol.dll",
+        "tools/qsc/Newtonsoft.Json.Bson.dll",
+        "tools/qsc/Newtonsoft.Json.dll",
+        "tools/qsc/System.Composition.AttributedModel.dll",
+        "tools/qsc/System.Composition.Convention.dll",
+        "tools/qsc/System.Composition.Hosting.dll",
+        "tools/qsc/System.Composition.Runtime.dll",
+        "tools/qsc/System.Composition.TypedParts.dll",
+        "tools/qsc/YamlDotNet.dll",
+        "tools/qsc/cs/FSharp.Core.resources.dll",
+        "tools/qsc/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+        "tools/qsc/cs/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/qsc/cs/Microsoft.CodeAnalysis.Features.resources.dll",
+        "tools/qsc/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+        "tools/qsc/cs/Microsoft.CodeAnalysis.resources.dll",
+        "tools/qsc/cs/Microsoft.VisualStudio.LanguageServer.Protocol.resources.dll",
+        "tools/qsc/de/FSharp.Core.resources.dll",
+        "tools/qsc/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+        "tools/qsc/de/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/qsc/de/Microsoft.CodeAnalysis.Features.resources.dll",
+        "tools/qsc/de/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+        "tools/qsc/de/Microsoft.CodeAnalysis.resources.dll",
+        "tools/qsc/de/Microsoft.VisualStudio.LanguageServer.Protocol.resources.dll",
+        "tools/qsc/es/FSharp.Core.resources.dll",
+        "tools/qsc/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+        "tools/qsc/es/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/qsc/es/Microsoft.CodeAnalysis.Features.resources.dll",
+        "tools/qsc/es/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+        "tools/qsc/es/Microsoft.CodeAnalysis.resources.dll",
+        "tools/qsc/es/Microsoft.VisualStudio.LanguageServer.Protocol.resources.dll",
+        "tools/qsc/fr/FSharp.Core.resources.dll",
+        "tools/qsc/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+        "tools/qsc/fr/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/qsc/fr/Microsoft.CodeAnalysis.Features.resources.dll",
+        "tools/qsc/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+        "tools/qsc/fr/Microsoft.CodeAnalysis.resources.dll",
+        "tools/qsc/fr/Microsoft.VisualStudio.LanguageServer.Protocol.resources.dll",
+        "tools/qsc/it/FSharp.Core.resources.dll",
+        "tools/qsc/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+        "tools/qsc/it/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/qsc/it/Microsoft.CodeAnalysis.Features.resources.dll",
+        "tools/qsc/it/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+        "tools/qsc/it/Microsoft.CodeAnalysis.resources.dll",
+        "tools/qsc/it/Microsoft.VisualStudio.LanguageServer.Protocol.resources.dll",
+        "tools/qsc/ja/FSharp.Core.resources.dll",
+        "tools/qsc/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+        "tools/qsc/ja/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/qsc/ja/Microsoft.CodeAnalysis.Features.resources.dll",
+        "tools/qsc/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+        "tools/qsc/ja/Microsoft.CodeAnalysis.resources.dll",
+        "tools/qsc/ja/Microsoft.VisualStudio.LanguageServer.Protocol.resources.dll",
+        "tools/qsc/ko/FSharp.Core.resources.dll",
+        "tools/qsc/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+        "tools/qsc/ko/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/qsc/ko/Microsoft.CodeAnalysis.Features.resources.dll",
+        "tools/qsc/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+        "tools/qsc/ko/Microsoft.CodeAnalysis.resources.dll",
+        "tools/qsc/ko/Microsoft.VisualStudio.LanguageServer.Protocol.resources.dll",
+        "tools/qsc/pl/FSharp.Core.resources.dll",
+        "tools/qsc/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+        "tools/qsc/pl/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/qsc/pl/Microsoft.CodeAnalysis.Features.resources.dll",
+        "tools/qsc/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+        "tools/qsc/pl/Microsoft.CodeAnalysis.resources.dll",
+        "tools/qsc/pl/Microsoft.VisualStudio.LanguageServer.Protocol.resources.dll",
+        "tools/qsc/pt-BR/FSharp.Core.resources.dll",
+        "tools/qsc/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+        "tools/qsc/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/qsc/pt-BR/Microsoft.CodeAnalysis.Features.resources.dll",
+        "tools/qsc/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+        "tools/qsc/pt-BR/Microsoft.CodeAnalysis.resources.dll",
+        "tools/qsc/pt-BR/Microsoft.VisualStudio.LanguageServer.Protocol.resources.dll",
+        "tools/qsc/ru/FSharp.Core.resources.dll",
+        "tools/qsc/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+        "tools/qsc/ru/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/qsc/ru/Microsoft.CodeAnalysis.Features.resources.dll",
+        "tools/qsc/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+        "tools/qsc/ru/Microsoft.CodeAnalysis.resources.dll",
+        "tools/qsc/ru/Microsoft.VisualStudio.LanguageServer.Protocol.resources.dll",
+        "tools/qsc/tr/FSharp.Core.resources.dll",
+        "tools/qsc/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+        "tools/qsc/tr/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/qsc/tr/Microsoft.CodeAnalysis.Features.resources.dll",
+        "tools/qsc/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+        "tools/qsc/tr/Microsoft.CodeAnalysis.resources.dll",
+        "tools/qsc/tr/Microsoft.VisualStudio.LanguageServer.Protocol.resources.dll",
+        "tools/qsc/zh-Hans/FSharp.Core.resources.dll",
+        "tools/qsc/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+        "tools/qsc/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/qsc/zh-Hans/Microsoft.CodeAnalysis.Features.resources.dll",
+        "tools/qsc/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+        "tools/qsc/zh-Hans/Microsoft.CodeAnalysis.resources.dll",
+        "tools/qsc/zh-Hans/Microsoft.VisualStudio.LanguageServer.Protocol.resources.dll",
+        "tools/qsc/zh-Hant/FSharp.Core.resources.dll",
+        "tools/qsc/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+        "tools/qsc/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/qsc/zh-Hant/Microsoft.CodeAnalysis.Features.resources.dll",
+        "tools/qsc/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll",
+        "tools/qsc/zh-Hant/Microsoft.CodeAnalysis.resources.dll",
+        "tools/qsc/zh-Hant/Microsoft.VisualStudio.LanguageServer.Protocol.resources.dll"
+      ]
+    },
+    "Microsoft.Quantum.Simulators/0.10.1912.501": {
+      "sha512": "/at2r+zvKcYV3rvVuW0sXMGf9x4HwJsq/S19da/l2/+CZ5UV5RE0fwOsiDQ3j4kx2Zl8+LSBb5ZrewcZjszNGA==",
+      "type": "package",
+      "path": "microsoft.quantum.simulators/0.10.1912.501",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.1/Microsoft.Quantum.Intrinsic.dll",
+        "lib/netstandard2.1/Microsoft.Quantum.Intrinsic.xml",
+        "lib/netstandard2.1/Microsoft.Quantum.Simulation.Common.dll",
+        "lib/netstandard2.1/Microsoft.Quantum.Simulation.Common.xml",
+        "lib/netstandard2.1/Microsoft.Quantum.Simulation.Core.dll",
+        "lib/netstandard2.1/Microsoft.Quantum.Simulation.Core.xml",
+        "lib/netstandard2.1/Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.dll",
+        "lib/netstandard2.1/Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.xml",
+        "lib/netstandard2.1/Microsoft.Quantum.Simulators.dll",
+        "lib/netstandard2.1/Microsoft.Quantum.Simulators.pdb",
+        "lib/netstandard2.1/Microsoft.Quantum.Simulators.xml",
+        "microsoft.quantum.simulators.0.10.1912.501.nupkg.sha512",
+        "microsoft.quantum.simulators.nuspec",
+        "runtimes/linux-x64/native/Microsoft.Quantum.Simulator.Runtime.dll",
+        "runtimes/osx-x64/native/Microsoft.Quantum.Simulator.Runtime.dll",
+        "runtimes/win-x64/native/Microsoft.Quantum.Simulator.Runtime.dll",
+        "runtimes/win-x64/native/vcomp140.dll"
+      ]
+    },
+    "Microsoft.Quantum.Standard/0.10.1912.501": {
+      "sha512": "YZ+N0UFiKrQ0X5zsGCzXQnhQLL29sxqOjCRR6XeifpIe8F06lbEltsbpnLaS+8fmWcqBXUfp80l9+KC/TufKkw==",
+      "type": "package",
+      "path": "microsoft.quantum.standard/0.10.1912.501",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.1/Microsoft.Quantum.Standard.dll",
+        "lib/netstandard2.1/Microsoft.Quantum.Standard.pdb",
+        "lib/netstandard2.1/Microsoft.Quantum.Standard.xml",
+        "microsoft.quantum.standard.0.10.1912.501.nupkg.sha512",
+        "microsoft.quantum.standard.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/11.0.2": {
+      "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "type": "package",
+      "path": "newtonsoft.json/11.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.11.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.0": [
+      "Microsoft.Quantum.Development.Kit >= 0.10.1912.501",
+      "Microsoft.Quantum.Standard >= 0.10.1912.501"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\zjjc1\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "c:\\Users\\zjjc1\\Desktop\\Deutsch Oracle\\Deutsch Oracle\\Deutsch Oracle.csproj",
+      "projectName": "Deutsch Oracle",
+      "projectPath": "c:\\Users\\zjjc1\\Desktop\\Deutsch Oracle\\Deutsch Oracle\\Deutsch Oracle.csproj",
+      "packagesPath": "C:\\Users\\zjjc1\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\zjjc1\\Desktop\\Deutsch Oracle\\Deutsch Oracle\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\zjjc1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "dependencies": {
+          "Microsoft.Quantum.Development.Kit": {
+            "target": "Package",
+            "version": "[0.10.1912.501, )"
+          },
+          "Microsoft.Quantum.Standard": {
+            "target": "Package",
+            "version": "[0.10.1912.501, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.0.1, 3.0.1]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.0.1, 3.0.1]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.0.0, 3.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.0.0, 3.0.0]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
