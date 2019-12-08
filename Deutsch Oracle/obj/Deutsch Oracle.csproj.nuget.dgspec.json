@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\zjjc1\\Desktop\\Deutsch Oracle\\Deutsch Oracle\\Deutsch Oracle.csproj": {}
+    "C:\\Users\\zjjc1\\Desktop\\Deutsch Oracle\\Deutsch Oracle\\Deutsch Oracle.csproj": {}
   },
   "projects": {
-    "c:\\Users\\zjjc1\\Desktop\\Deutsch Oracle\\Deutsch Oracle\\Deutsch Oracle.csproj": {
+    "C:\\Users\\zjjc1\\Desktop\\Deutsch Oracle\\Deutsch Oracle\\Deutsch Oracle.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\zjjc1\\Desktop\\Deutsch Oracle\\Deutsch Oracle\\Deutsch Oracle.csproj",
+        "projectUniqueName": "C:\\Users\\zjjc1\\Desktop\\Deutsch Oracle\\Deutsch Oracle\\Deutsch Oracle.csproj",
         "projectName": "Deutsch Oracle",
-        "projectPath": "c:\\Users\\zjjc1\\Desktop\\Deutsch Oracle\\Deutsch Oracle\\Deutsch Oracle.csproj",
+        "projectPath": "C:\\Users\\zjjc1\\Desktop\\Deutsch Oracle\\Deutsch Oracle\\Deutsch Oracle.csproj",
         "packagesPath": "C:\\Users\\zjjc1\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\zjjc1\\Desktop\\Deutsch Oracle\\Deutsch Oracle\\obj\\",
+        "outputPath": "C:\\Users\\zjjc1\\Desktop\\Deutsch Oracle\\Deutsch Oracle\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

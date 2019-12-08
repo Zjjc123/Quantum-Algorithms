@@ -1,0 +1,23 @@
+C:\Users\zjjc1\Desktop\Deutsch Oracle\Deutsch Oracle\bin\Debug\netcoreapp3.0\Deutsch Oracle.exe
+C:\Users\zjjc1\Desktop\Deutsch Oracle\Deutsch Oracle\bin\Debug\netcoreapp3.0\Deutsch Oracle.deps.json
+C:\Users\zjjc1\Desktop\Deutsch Oracle\Deutsch Oracle\bin\Debug\netcoreapp3.0\Deutsch Oracle.runtimeconfig.json
+C:\Users\zjjc1\Desktop\Deutsch Oracle\Deutsch Oracle\bin\Debug\netcoreapp3.0\Deutsch Oracle.runtimeconfig.dev.json
+C:\Users\zjjc1\Desktop\Deutsch Oracle\Deutsch Oracle\bin\Debug\netcoreapp3.0\Deutsch Oracle.dll
+C:\Users\zjjc1\Desktop\Deutsch Oracle\Deutsch Oracle\bin\Debug\netcoreapp3.0\Deutsch Oracle.pdb
+C:\Users\zjjc1\Desktop\Deutsch Oracle\Deutsch Oracle\bin\Debug\netcoreapp3.0\Microsoft.Quantum.Intrinsic.dll
+C:\Users\zjjc1\Desktop\Deutsch Oracle\Deutsch Oracle\bin\Debug\netcoreapp3.0\Microsoft.Quantum.Simulation.Common.dll
+C:\Users\zjjc1\Desktop\Deutsch Oracle\Deutsch Oracle\bin\Debug\netcoreapp3.0\Microsoft.Quantum.Simulation.Core.dll
+C:\Users\zjjc1\Desktop\Deutsch Oracle\Deutsch Oracle\bin\Debug\netcoreapp3.0\Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.dll
+C:\Users\zjjc1\Desktop\Deutsch Oracle\Deutsch Oracle\bin\Debug\netcoreapp3.0\Microsoft.Quantum.Simulators.dll
+C:\Users\zjjc1\Desktop\Deutsch Oracle\Deutsch Oracle\bin\Debug\netcoreapp3.0\Microsoft.Quantum.Standard.dll
+C:\Users\zjjc1\Desktop\Deutsch Oracle\Deutsch Oracle\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Users\zjjc1\Desktop\Deutsch Oracle\Deutsch Oracle\bin\Debug\netcoreapp3.0\runtimes\linux-x64\native\Microsoft.Quantum.Simulator.Runtime.dll
+C:\Users\zjjc1\Desktop\Deutsch Oracle\Deutsch Oracle\bin\Debug\netcoreapp3.0\runtimes\osx-x64\native\Microsoft.Quantum.Simulator.Runtime.dll
+C:\Users\zjjc1\Desktop\Deutsch Oracle\Deutsch Oracle\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\Microsoft.Quantum.Simulator.Runtime.dll
+C:\Users\zjjc1\Desktop\Deutsch Oracle\Deutsch Oracle\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\vcomp140.dll
+C:\Users\zjjc1\Desktop\Deutsch Oracle\Deutsch Oracle\obj\Debug\netcoreapp3.0\Deutsch Oracle.csprojAssemblyReference.cache
+C:\Users\zjjc1\Desktop\Deutsch Oracle\Deutsch Oracle\obj\Debug\netcoreapp3.0\Deutsch Oracle.AssemblyInfoInputs.cache
+C:\Users\zjjc1\Desktop\Deutsch Oracle\Deutsch Oracle\obj\Debug\netcoreapp3.0\Deutsch Oracle.AssemblyInfo.cs
+C:\Users\zjjc1\Desktop\Deutsch Oracle\Deutsch Oracle\obj\Debug\netcoreapp3.0\Deutsch Oracle.csproj.CopyComplete
+C:\Users\zjjc1\Desktop\Deutsch Oracle\Deutsch Oracle\obj\Debug\netcoreapp3.0\Deutsch Oracle.dll
+C:\Users\zjjc1\Desktop\Deutsch Oracle\Deutsch Oracle\obj\Debug\netcoreapp3.0\Deutsch Oracle.pdb
