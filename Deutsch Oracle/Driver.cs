@@ -11,8 +11,13 @@ namespace Deutsch_Oracle
         {
             using (var qsim = new QuantumSimulator())
             {
-                HelloQ.Run(qsim).Wait();
+                Console.WriteLine($"ConstantZero constant: [{IsConstantZeroConstant.Run(qsim).Result}]");
+                Console.WriteLine($"ConstantOne constant: [{IsConstantOneConstant.Run(qsim).Result}]");
+                Console.WriteLine($"Identity constant: [{IsIdentityConstant.Run(qsim).Result}]");
+                Console.WriteLine($"Negation constant: [{IsNegationConstant.Run(qsim).Result}]");
             }
+
+            Console.ReadKey();
         }
     }
 }
