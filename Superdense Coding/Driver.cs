@@ -11,7 +11,13 @@ namespace Superdense_Coding
         {
             using (var qsim = new QuantumSimulator())
             {
-                HelloQ.Run(qsim).Wait();
+                Console.WriteLine("Enter First Bit (0 or 1): ");
+                int a = int.Parse(Console.ReadLine());
+                Console.WriteLine("Enter Second Bit (0 or 1): ");
+                int b = int.Parse(Console.ReadLine());
+                
+                Console.WriteLine("Result: ");
+                Console.WriteLine(SendMessage.Run(qsim, a, b).Result);
             }
         }
     }
