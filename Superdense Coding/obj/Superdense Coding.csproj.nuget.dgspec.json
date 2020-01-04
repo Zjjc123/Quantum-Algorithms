@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\zjjc1\\Desktop\\Quantum-Algorithms\\Deutsch Oracle\\Deutsch Oracle.csproj": {}
+    "c:\\Users\\zjjc1\\Desktop\\Quantum-Algorithms\\Superdense Coding\\Superdense Coding.csproj": {}
   },
   "projects": {
-    "c:\\Users\\zjjc1\\Desktop\\Quantum-Algorithms\\Deutsch Oracle\\Deutsch Oracle.csproj": {
+    "c:\\Users\\zjjc1\\Desktop\\Quantum-Algorithms\\Superdense Coding\\Superdense Coding.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\zjjc1\\Desktop\\Quantum-Algorithms\\Deutsch Oracle\\Deutsch Oracle.csproj",
-        "projectName": "Deutsch Oracle",
-        "projectPath": "c:\\Users\\zjjc1\\Desktop\\Quantum-Algorithms\\Deutsch Oracle\\Deutsch Oracle.csproj",
+        "projectUniqueName": "c:\\Users\\zjjc1\\Desktop\\Quantum-Algorithms\\Superdense Coding\\Superdense Coding.csproj",
+        "projectName": "Superdense Coding",
+        "projectPath": "c:\\Users\\zjjc1\\Desktop\\Quantum-Algorithms\\Superdense Coding\\Superdense Coding.csproj",
         "packagesPath": "C:\\Users\\zjjc1\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\zjjc1\\Desktop\\Quantum-Algorithms\\Deutsch Oracle\\obj\\",
+        "outputPath": "c:\\Users\\zjjc1\\Desktop\\Quantum-Algorithms\\Superdense Coding\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
