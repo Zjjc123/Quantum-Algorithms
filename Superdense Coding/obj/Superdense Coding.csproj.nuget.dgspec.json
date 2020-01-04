@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\zjjc1\\Desktop\\Quantum-Algorithms\\Superdense Coding\\Superdense Coding.csproj": {}
+    "C:\\Users\\zjjc1\\Desktop\\Quantum-Algorithms\\Superdense Coding\\Superdense Coding.csproj": {}
   },
   "projects": {
-    "c:\\Users\\zjjc1\\Desktop\\Quantum-Algorithms\\Superdense Coding\\Superdense Coding.csproj": {
+    "C:\\Users\\zjjc1\\Desktop\\Quantum-Algorithms\\Superdense Coding\\Superdense Coding.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\zjjc1\\Desktop\\Quantum-Algorithms\\Superdense Coding\\Superdense Coding.csproj",
+        "projectUniqueName": "C:\\Users\\zjjc1\\Desktop\\Quantum-Algorithms\\Superdense Coding\\Superdense Coding.csproj",
         "projectName": "Superdense Coding",
-        "projectPath": "c:\\Users\\zjjc1\\Desktop\\Quantum-Algorithms\\Superdense Coding\\Superdense Coding.csproj",
+        "projectPath": "C:\\Users\\zjjc1\\Desktop\\Quantum-Algorithms\\Superdense Coding\\Superdense Coding.csproj",
         "packagesPath": "C:\\Users\\zjjc1\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\zjjc1\\Desktop\\Quantum-Algorithms\\Superdense Coding\\obj\\",
+        "outputPath": "C:\\Users\\zjjc1\\Desktop\\Quantum-Algorithms\\Superdense Coding\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

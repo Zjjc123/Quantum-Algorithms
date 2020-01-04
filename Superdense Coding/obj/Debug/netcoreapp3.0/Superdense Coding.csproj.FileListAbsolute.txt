@@ -1,0 +1,23 @@
+C:\Users\zjjc1\Desktop\Quantum-Algorithms\Superdense Coding\obj\Debug\netcoreapp3.0\Superdense Coding.csprojAssemblyReference.cache
+C:\Users\zjjc1\Desktop\Quantum-Algorithms\Superdense Coding\obj\Debug\netcoreapp3.0\Superdense Coding.AssemblyInfoInputs.cache
+C:\Users\zjjc1\Desktop\Quantum-Algorithms\Superdense Coding\obj\Debug\netcoreapp3.0\Superdense Coding.AssemblyInfo.cs
+C:\Users\zjjc1\Desktop\Quantum-Algorithms\Superdense Coding\bin\Debug\netcoreapp3.0\Superdense Coding.exe
+C:\Users\zjjc1\Desktop\Quantum-Algorithms\Superdense Coding\bin\Debug\netcoreapp3.0\Superdense Coding.deps.json
+C:\Users\zjjc1\Desktop\Quantum-Algorithms\Superdense Coding\bin\Debug\netcoreapp3.0\Superdense Coding.runtimeconfig.json
+C:\Users\zjjc1\Desktop\Quantum-Algorithms\Superdense Coding\bin\Debug\netcoreapp3.0\Superdense Coding.runtimeconfig.dev.json
+C:\Users\zjjc1\Desktop\Quantum-Algorithms\Superdense Coding\bin\Debug\netcoreapp3.0\Superdense Coding.dll
+C:\Users\zjjc1\Desktop\Quantum-Algorithms\Superdense Coding\bin\Debug\netcoreapp3.0\Superdense Coding.pdb
+C:\Users\zjjc1\Desktop\Quantum-Algorithms\Superdense Coding\bin\Debug\netcoreapp3.0\Microsoft.Quantum.Intrinsic.dll
+C:\Users\zjjc1\Desktop\Quantum-Algorithms\Superdense Coding\bin\Debug\netcoreapp3.0\Microsoft.Quantum.Simulation.Common.dll
+C:\Users\zjjc1\Desktop\Quantum-Algorithms\Superdense Coding\bin\Debug\netcoreapp3.0\Microsoft.Quantum.Simulation.Core.dll
+C:\Users\zjjc1\Desktop\Quantum-Algorithms\Superdense Coding\bin\Debug\netcoreapp3.0\Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.dll
+C:\Users\zjjc1\Desktop\Quantum-Algorithms\Superdense Coding\bin\Debug\netcoreapp3.0\Microsoft.Quantum.Simulators.dll
+C:\Users\zjjc1\Desktop\Quantum-Algorithms\Superdense Coding\bin\Debug\netcoreapp3.0\Microsoft.Quantum.Standard.dll
+C:\Users\zjjc1\Desktop\Quantum-Algorithms\Superdense Coding\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Users\zjjc1\Desktop\Quantum-Algorithms\Superdense Coding\bin\Debug\netcoreapp3.0\runtimes\linux-x64\native\Microsoft.Quantum.Simulator.Runtime.dll
+C:\Users\zjjc1\Desktop\Quantum-Algorithms\Superdense Coding\bin\Debug\netcoreapp3.0\runtimes\osx-x64\native\Microsoft.Quantum.Simulator.Runtime.dll
+C:\Users\zjjc1\Desktop\Quantum-Algorithms\Superdense Coding\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\Microsoft.Quantum.Simulator.Runtime.dll
+C:\Users\zjjc1\Desktop\Quantum-Algorithms\Superdense Coding\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\vcomp140.dll
+C:\Users\zjjc1\Desktop\Quantum-Algorithms\Superdense Coding\obj\Debug\netcoreapp3.0\Superdense Coding.csproj.CopyComplete
+C:\Users\zjjc1\Desktop\Quantum-Algorithms\Superdense Coding\obj\Debug\netcoreapp3.0\Superdense Coding.dll
+C:\Users\zjjc1\Desktop\Quantum-Algorithms\Superdense Coding\obj\Debug\netcoreapp3.0\Superdense Coding.pdb

@@ -5,24 +5,24 @@ using Microsoft.Quantum.Core;
 using Microsoft.Quantum.Intrinsic;
 using Microsoft.Quantum.Simulation.Core;
 
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Deutsch_Oracle\",\"Name\":\"IsBlackBoxConstant\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/zjjc1/Desktop/Deutsch%20Oracle/Deutsch%20Oracle/Operations.qs\",\"Position\":{\"Item1\":23,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":29}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"blackBox\"]},\"Type\":{\"Case\":\"Operation\",\"Fields\":[{\"Item1\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"}]]},\"Item2\":{\"Case\":\"UnitType\"}},{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":30},\"Item2\":{\"Line\":1,\"Column\":38}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"Operation\",\"Fields\":[{\"Item1\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"}]]},\"Item2\":{\"Case\":\"UnitType\"}},{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}]},\"ReturnType\":{\"Case\":\"Bool\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Deutsch_Oracle\",\"Name\":\"IsBlackBoxConstant\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/zjjc1/Desktop/Deutsch%20Oracle/Deutsch%20Oracle/Operations.qs\",\"Position\":{\"Item1\":25,\"Item2\":8},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":1},\"Item2\":{\"Line\":1,\"Column\":5}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Deutsch_Oracle\",\"Name\":\"IsConstantZeroConstant\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/zjjc1/Desktop/Deutsch%20Oracle/Deutsch%20Oracle/Operations.qs\",\"Position\":{\"Item1\":76,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":33}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"Bool\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Deutsch_Oracle\",\"Name\":\"IsConstantZeroConstant\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/zjjc1/Desktop/Deutsch%20Oracle/Deutsch%20Oracle/Operations.qs\",\"Position\":{\"Item1\":78,\"Item2\":8},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":1},\"Item2\":{\"Line\":1,\"Column\":5}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Deutsch_Oracle\",\"Name\":\"IsConstantOneConstant\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/zjjc1/Desktop/Deutsch%20Oracle/Deutsch%20Oracle/Operations.qs\",\"Position\":{\"Item1\":83,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":32}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"Bool\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Deutsch_Oracle\",\"Name\":\"IsConstantOneConstant\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/zjjc1/Desktop/Deutsch%20Oracle/Deutsch%20Oracle/Operations.qs\",\"Position\":{\"Item1\":85,\"Item2\":8},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":1},\"Item2\":{\"Line\":1,\"Column\":5}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Deutsch_Oracle\",\"Name\":\"IsIdentityConstant\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/zjjc1/Desktop/Deutsch%20Oracle/Deutsch%20Oracle/Operations.qs\",\"Position\":{\"Item1\":90,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":29}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"Bool\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Deutsch_Oracle\",\"Name\":\"IsIdentityConstant\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/zjjc1/Desktop/Deutsch%20Oracle/Deutsch%20Oracle/Operations.qs\",\"Position\":{\"Item1\":92,\"Item2\":8},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":1},\"Item2\":{\"Line\":1,\"Column\":5}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Deutsch_Oracle\",\"Name\":\"IsNegationConstant\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/zjjc1/Desktop/Deutsch%20Oracle/Deutsch%20Oracle/Operations.qs\",\"Position\":{\"Item1\":97,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":29}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"Bool\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Deutsch_Oracle\",\"Name\":\"IsNegationConstant\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/zjjc1/Desktop/Deutsch%20Oracle/Deutsch%20Oracle/Operations.qs\",\"Position\":{\"Item1\":99,\"Item2\":8},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":1},\"Item2\":{\"Line\":1,\"Column\":5}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Deutsch_Oracle\",\"Name\":\"Set\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/zjjc1/Desktop/Deutsch%20Oracle/Deutsch%20Oracle/Operations.qs\",\"Position\":{\"Item1\":107,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":14}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"desired\"]},\"Type\":{\"Case\":\"Result\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":15},\"Item2\":{\"Line\":1,\"Column\":22}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q1\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":33},\"Item2\":{\"Line\":1,\"Column\":35}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Result\"},{\"Case\":\"Qubit\"}]]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Deutsch_Oracle\",\"Name\":\"Set\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/zjjc1/Desktop/Deutsch%20Oracle/Deutsch%20Oracle/Operations.qs\",\"Position\":{\"Item1\":107,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":14}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Deutsch_Oracle\",\"Name\":\"Clear\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/zjjc1/Desktop/Deutsch%20Oracle/Deutsch%20Oracle/Operations.qs\",\"Position\":{\"Item1\":114,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":16}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q1\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":17},\"Item2\":{\"Line\":1,\"Column\":19}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q2\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":28},\"Item2\":{\"Line\":1,\"Column\":30}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"}]]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Deutsch_Oracle\",\"Name\":\"Clear\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/zjjc1/Desktop/Deutsch%20Oracle/Deutsch%20Oracle/Operations.qs\",\"Position\":{\"Item1\":114,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":16}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Deutsch_Oracle\",\"Name\":\"IsBlackBoxConstant\"},\"Attributes\":[],\"SourceFile\":\"c:/Users/zjjc1/Desktop/Quantum-Algorithms/Deutsch%20Oracle/Operations.qs\",\"Position\":{\"Item1\":23,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":29}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"blackBox\"]},\"Type\":{\"Case\":\"Operation\",\"Fields\":[{\"Item1\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"}]]},\"Item2\":{\"Case\":\"UnitType\"}},{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":30},\"Item2\":{\"Line\":1,\"Column\":38}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"Operation\",\"Fields\":[{\"Item1\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"}]]},\"Item2\":{\"Case\":\"UnitType\"}},{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}]},\"ReturnType\":{\"Case\":\"Bool\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Deutsch_Oracle\",\"Name\":\"IsBlackBoxConstant\"},\"Attributes\":[],\"SourceFile\":\"c:/Users/zjjc1/Desktop/Quantum-Algorithms/Deutsch%20Oracle/Operations.qs\",\"Position\":{\"Item1\":25,\"Item2\":8},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":1},\"Item2\":{\"Line\":1,\"Column\":5}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Deutsch_Oracle\",\"Name\":\"IsConstantZeroConstant\"},\"Attributes\":[],\"SourceFile\":\"c:/Users/zjjc1/Desktop/Quantum-Algorithms/Deutsch%20Oracle/Operations.qs\",\"Position\":{\"Item1\":76,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":33}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"Bool\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Deutsch_Oracle\",\"Name\":\"IsConstantZeroConstant\"},\"Attributes\":[],\"SourceFile\":\"c:/Users/zjjc1/Desktop/Quantum-Algorithms/Deutsch%20Oracle/Operations.qs\",\"Position\":{\"Item1\":78,\"Item2\":8},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":1},\"Item2\":{\"Line\":1,\"Column\":5}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Deutsch_Oracle\",\"Name\":\"IsConstantOneConstant\"},\"Attributes\":[],\"SourceFile\":\"c:/Users/zjjc1/Desktop/Quantum-Algorithms/Deutsch%20Oracle/Operations.qs\",\"Position\":{\"Item1\":83,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":32}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"Bool\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Deutsch_Oracle\",\"Name\":\"IsConstantOneConstant\"},\"Attributes\":[],\"SourceFile\":\"c:/Users/zjjc1/Desktop/Quantum-Algorithms/Deutsch%20Oracle/Operations.qs\",\"Position\":{\"Item1\":85,\"Item2\":8},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":1},\"Item2\":{\"Line\":1,\"Column\":5}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Deutsch_Oracle\",\"Name\":\"IsIdentityConstant\"},\"Attributes\":[],\"SourceFile\":\"c:/Users/zjjc1/Desktop/Quantum-Algorithms/Deutsch%20Oracle/Operations.qs\",\"Position\":{\"Item1\":90,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":29}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"Bool\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Deutsch_Oracle\",\"Name\":\"IsIdentityConstant\"},\"Attributes\":[],\"SourceFile\":\"c:/Users/zjjc1/Desktop/Quantum-Algorithms/Deutsch%20Oracle/Operations.qs\",\"Position\":{\"Item1\":92,\"Item2\":8},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":1},\"Item2\":{\"Line\":1,\"Column\":5}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Deutsch_Oracle\",\"Name\":\"IsNegationConstant\"},\"Attributes\":[],\"SourceFile\":\"c:/Users/zjjc1/Desktop/Quantum-Algorithms/Deutsch%20Oracle/Operations.qs\",\"Position\":{\"Item1\":97,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":29}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"Bool\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Deutsch_Oracle\",\"Name\":\"IsNegationConstant\"},\"Attributes\":[],\"SourceFile\":\"c:/Users/zjjc1/Desktop/Quantum-Algorithms/Deutsch%20Oracle/Operations.qs\",\"Position\":{\"Item1\":99,\"Item2\":8},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":1},\"Item2\":{\"Line\":1,\"Column\":5}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Deutsch_Oracle\",\"Name\":\"Set\"},\"Attributes\":[],\"SourceFile\":\"c:/Users/zjjc1/Desktop/Quantum-Algorithms/Deutsch%20Oracle/Operations.qs\",\"Position\":{\"Item1\":107,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":14}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"desired\"]},\"Type\":{\"Case\":\"Result\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":15},\"Item2\":{\"Line\":1,\"Column\":22}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q1\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":33},\"Item2\":{\"Line\":1,\"Column\":35}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Result\"},{\"Case\":\"Qubit\"}]]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Deutsch_Oracle\",\"Name\":\"Set\"},\"Attributes\":[],\"SourceFile\":\"c:/Users/zjjc1/Desktop/Quantum-Algorithms/Deutsch%20Oracle/Operations.qs\",\"Position\":{\"Item1\":107,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":14}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Deutsch_Oracle\",\"Name\":\"Clear\"},\"Attributes\":[],\"SourceFile\":\"c:/Users/zjjc1/Desktop/Quantum-Algorithms/Deutsch%20Oracle/Operations.qs\",\"Position\":{\"Item1\":114,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":16}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q1\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":17},\"Item2\":{\"Line\":1,\"Column\":19}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q2\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":28},\"Item2\":{\"Line\":1,\"Column\":30}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"}]]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Deutsch_Oracle\",\"Name\":\"Clear\"},\"Attributes\":[],\"SourceFile\":\"c:/Users/zjjc1/Desktop/Quantum-Algorithms/Deutsch%20Oracle/Operations.qs\",\"Position\":{\"Item1\":114,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":16}},\"Documentation\":[]}")]
 #line hidden
 namespace Deutsch_Oracle
 {
-    [SourceLocation("C:/Users/zjjc1/Desktop/Deutsch%20Oracle/Deutsch%20Oracle/Operations.qs", OperationFunctor.Body, 26, 77)]
+    [SourceLocation("c:/Users/zjjc1/Desktop/Quantum-Algorithms/Deutsch%20Oracle/Operations.qs", OperationFunctor.Body, 26, 77)]
     public partial class IsBlackBoxConstant : Operation<ICallable, Boolean>, ICallable
     {
         public IsBlackBoxConstant(IOperationFactory m) : base(m)
@@ -70,43 +70,43 @@ namespace Deutsch_Oracle
         public override Func<ICallable, Boolean> Body => (__in__) =>
         {
             var blackBox = __in__;
-#line 30 "C:/Users/zjjc1/Desktop/Deutsch%20Oracle/Deutsch%20Oracle/Operations.qs"
+#line 30 "c:/Users/zjjc1/Desktop/Quantum-Algorithms/Deutsch%20Oracle/Operations.qs"
             var inputResult = Result.Zero;
-#line 31 "C:/Users/zjjc1/Desktop/Deutsch%20Oracle/Deutsch%20Oracle/Operations.qs"
+#line 31 "c:/Users/zjjc1/Desktop/Quantum-Algorithms/Deutsch%20Oracle/Operations.qs"
             var outputResult = Result.Zero;
 #line hidden
             {
-#line 35 "C:/Users/zjjc1/Desktop/Deutsch%20Oracle/Deutsch%20Oracle/Operations.qs"
+#line 35 "c:/Users/zjjc1/Desktop/Quantum-Algorithms/Deutsch%20Oracle/Operations.qs"
                 var qbits = Allocate.Apply(2L);
 #line hidden
                 System.Runtime.ExceptionServices.ExceptionDispatchInfo __arg1__ = null;
                 try
                 {
-#line 39 "C:/Users/zjjc1/Desktop/Deutsch%20Oracle/Deutsch%20Oracle/Operations.qs"
+#line 39 "c:/Users/zjjc1/Desktop/Quantum-Algorithms/Deutsch%20Oracle/Operations.qs"
                     var input = qbits[0L];
-#line 40 "C:/Users/zjjc1/Desktop/Deutsch%20Oracle/Deutsch%20Oracle/Operations.qs"
+#line 40 "c:/Users/zjjc1/Desktop/Quantum-Algorithms/Deutsch%20Oracle/Operations.qs"
                     var output = qbits[1L];
-#line 43 "C:/Users/zjjc1/Desktop/Deutsch%20Oracle/Deutsch%20Oracle/Operations.qs"
+#line 43 "c:/Users/zjjc1/Desktop/Quantum-Algorithms/Deutsch%20Oracle/Operations.qs"
                     Clear.Apply((input, output));
-#line 46 "C:/Users/zjjc1/Desktop/Deutsch%20Oracle/Deutsch%20Oracle/Operations.qs"
+#line 46 "c:/Users/zjjc1/Desktop/Quantum-Algorithms/Deutsch%20Oracle/Operations.qs"
                     MicrosoftQuantumIntrinsicX.Apply(input);
-#line 47 "C:/Users/zjjc1/Desktop/Deutsch%20Oracle/Deutsch%20Oracle/Operations.qs"
+#line 47 "c:/Users/zjjc1/Desktop/Quantum-Algorithms/Deutsch%20Oracle/Operations.qs"
                     MicrosoftQuantumIntrinsicX.Apply(output);
-#line 50 "C:/Users/zjjc1/Desktop/Deutsch%20Oracle/Deutsch%20Oracle/Operations.qs"
+#line 50 "c:/Users/zjjc1/Desktop/Quantum-Algorithms/Deutsch%20Oracle/Operations.qs"
                     MicrosoftQuantumIntrinsicH.Apply(input);
-#line 51 "C:/Users/zjjc1/Desktop/Deutsch%20Oracle/Deutsch%20Oracle/Operations.qs"
+#line 51 "c:/Users/zjjc1/Desktop/Quantum-Algorithms/Deutsch%20Oracle/Operations.qs"
                     MicrosoftQuantumIntrinsicH.Apply(output);
-#line 54 "C:/Users/zjjc1/Desktop/Deutsch%20Oracle/Deutsch%20Oracle/Operations.qs"
+#line 54 "c:/Users/zjjc1/Desktop/Quantum-Algorithms/Deutsch%20Oracle/Operations.qs"
                     blackBox.Apply((input, output));
-#line 57 "C:/Users/zjjc1/Desktop/Deutsch%20Oracle/Deutsch%20Oracle/Operations.qs"
+#line 57 "c:/Users/zjjc1/Desktop/Quantum-Algorithms/Deutsch%20Oracle/Operations.qs"
                     MicrosoftQuantumIntrinsicH.Apply(input);
-#line 58 "C:/Users/zjjc1/Desktop/Deutsch%20Oracle/Deutsch%20Oracle/Operations.qs"
+#line 58 "c:/Users/zjjc1/Desktop/Quantum-Algorithms/Deutsch%20Oracle/Operations.qs"
                     MicrosoftQuantumIntrinsicH.Apply(output);
-#line 62 "C:/Users/zjjc1/Desktop/Deutsch%20Oracle/Deutsch%20Oracle/Operations.qs"
+#line 62 "c:/Users/zjjc1/Desktop/Quantum-Algorithms/Deutsch%20Oracle/Operations.qs"
                     inputResult = MicrosoftQuantumIntrinsicM.Apply(input);
-#line 63 "C:/Users/zjjc1/Desktop/Deutsch%20Oracle/Deutsch%20Oracle/Operations.qs"
+#line 63 "c:/Users/zjjc1/Desktop/Quantum-Algorithms/Deutsch%20Oracle/Operations.qs"
                     outputResult = MicrosoftQuantumIntrinsicM.Apply(output);
-#line 66 "C:/Users/zjjc1/Desktop/Deutsch%20Oracle/Deutsch%20Oracle/Operations.qs"
+#line 66 "c:/Users/zjjc1/Desktop/Quantum-Algorithms/Deutsch%20Oracle/Operations.qs"
                     Clear.Apply((input, output));
                 }
 #line hidden
@@ -128,7 +128,7 @@ namespace Deutsch_Oracle
                 }
             }
 
-#line 71 "C:/Users/zjjc1/Desktop/Deutsch%20Oracle/Deutsch%20Oracle/Operations.qs"
+#line 71 "c:/Users/zjjc1/Desktop/Quantum-Algorithms/Deutsch%20Oracle/Operations.qs"
             return (Result.One == inputResult);
         }
 
@@ -151,7 +151,7 @@ namespace Deutsch_Oracle
         }
     }
 
-    [SourceLocation("C:/Users/zjjc1/Desktop/Deutsch%20Oracle/Deutsch%20Oracle/Operations.qs", OperationFunctor.Body, 79, 84)]
+    [SourceLocation("c:/Users/zjjc1/Desktop/Quantum-Algorithms/Deutsch%20Oracle/Operations.qs", OperationFunctor.Body, 79, 84)]
     public partial class IsConstantZeroConstant : Operation<QVoid, Boolean>, ICallable
     {
         public IsConstantZeroConstant(IOperationFactory m) : base(m)
@@ -174,7 +174,7 @@ namespace Deutsch_Oracle
 
         public override Func<QVoid, Boolean> Body => (__in__) =>
         {
-#line 81 "C:/Users/zjjc1/Desktop/Deutsch%20Oracle/Deutsch%20Oracle/Operations.qs"
+#line 81 "c:/Users/zjjc1/Desktop/Quantum-Algorithms/Deutsch%20Oracle/Operations.qs"
             return IsBlackBoxConstant.Apply(ConstantZero);
         }
 
@@ -193,7 +193,7 @@ namespace Deutsch_Oracle
         }
     }
 
-    [SourceLocation("C:/Users/zjjc1/Desktop/Deutsch%20Oracle/Deutsch%20Oracle/Operations.qs", OperationFunctor.Body, 86, 91)]
+    [SourceLocation("c:/Users/zjjc1/Desktop/Quantum-Algorithms/Deutsch%20Oracle/Operations.qs", OperationFunctor.Body, 86, 91)]
     public partial class IsConstantOneConstant : Operation<QVoid, Boolean>, ICallable
     {
         public IsConstantOneConstant(IOperationFactory m) : base(m)
@@ -216,7 +216,7 @@ namespace Deutsch_Oracle
 
         public override Func<QVoid, Boolean> Body => (__in__) =>
         {
-#line 88 "C:/Users/zjjc1/Desktop/Deutsch%20Oracle/Deutsch%20Oracle/Operations.qs"
+#line 88 "c:/Users/zjjc1/Desktop/Quantum-Algorithms/Deutsch%20Oracle/Operations.qs"
             return IsBlackBoxConstant.Apply(ConstantOne);
         }
 
@@ -235,7 +235,7 @@ namespace Deutsch_Oracle
         }
     }
 
-    [SourceLocation("C:/Users/zjjc1/Desktop/Deutsch%20Oracle/Deutsch%20Oracle/Operations.qs", OperationFunctor.Body, 93, 98)]
+    [SourceLocation("c:/Users/zjjc1/Desktop/Quantum-Algorithms/Deutsch%20Oracle/Operations.qs", OperationFunctor.Body, 93, 98)]
     public partial class IsIdentityConstant : Operation<QVoid, Boolean>, ICallable
     {
         public IsIdentityConstant(IOperationFactory m) : base(m)
@@ -258,7 +258,7 @@ namespace Deutsch_Oracle
 
         public override Func<QVoid, Boolean> Body => (__in__) =>
         {
-#line 95 "C:/Users/zjjc1/Desktop/Deutsch%20Oracle/Deutsch%20Oracle/Operations.qs"
+#line 95 "c:/Users/zjjc1/Desktop/Quantum-Algorithms/Deutsch%20Oracle/Operations.qs"
             return IsBlackBoxConstant.Apply(Identity);
         }
 
@@ -277,7 +277,7 @@ namespace Deutsch_Oracle
         }
     }
 
-    [SourceLocation("C:/Users/zjjc1/Desktop/Deutsch%20Oracle/Deutsch%20Oracle/Operations.qs", OperationFunctor.Body, 100, 108)]
+    [SourceLocation("c:/Users/zjjc1/Desktop/Quantum-Algorithms/Deutsch%20Oracle/Operations.qs", OperationFunctor.Body, 100, 108)]
     public partial class IsNegationConstant : Operation<QVoid, Boolean>, ICallable
     {
         public IsNegationConstant(IOperationFactory m) : base(m)
@@ -300,7 +300,7 @@ namespace Deutsch_Oracle
 
         public override Func<QVoid, Boolean> Body => (__in__) =>
         {
-#line 102 "C:/Users/zjjc1/Desktop/Deutsch%20Oracle/Deutsch%20Oracle/Operations.qs"
+#line 102 "c:/Users/zjjc1/Desktop/Quantum-Algorithms/Deutsch%20Oracle/Operations.qs"
             return IsBlackBoxConstant.Apply(Negation);
         }
 
@@ -319,7 +319,7 @@ namespace Deutsch_Oracle
         }
     }
 
-    [SourceLocation("C:/Users/zjjc1/Desktop/Deutsch%20Oracle/Deutsch%20Oracle/Operations.qs", OperationFunctor.Body, 108, 115)]
+    [SourceLocation("c:/Users/zjjc1/Desktop/Quantum-Algorithms/Deutsch%20Oracle/Operations.qs", OperationFunctor.Body, 108, 115)]
     public partial class Set : Operation<(Result,Qubit), QVoid>, ICallable
     {
         public Set(IOperationFactory m) : base(m)
@@ -358,10 +358,10 @@ namespace Deutsch_Oracle
         public override Func<(Result,Qubit), QVoid> Body => (__in__) =>
         {
             var (desired,q1) = __in__;
-#line 110 "C:/Users/zjjc1/Desktop/Deutsch%20Oracle/Deutsch%20Oracle/Operations.qs"
+#line 110 "c:/Users/zjjc1/Desktop/Quantum-Algorithms/Deutsch%20Oracle/Operations.qs"
             if ((desired != MicrosoftQuantumIntrinsicM.Apply(q1)))
             {
-#line 111 "C:/Users/zjjc1/Desktop/Deutsch%20Oracle/Deutsch%20Oracle/Operations.qs"
+#line 111 "c:/Users/zjjc1/Desktop/Quantum-Algorithms/Deutsch%20Oracle/Operations.qs"
                 MicrosoftQuantumIntrinsicX.Apply(q1);
             }
 
@@ -384,7 +384,7 @@ namespace Deutsch_Oracle
         }
     }
 
-    [SourceLocation("C:/Users/zjjc1/Desktop/Deutsch%20Oracle/Deutsch%20Oracle/Operations.qs", OperationFunctor.Body, 115, -1)]
+    [SourceLocation("c:/Users/zjjc1/Desktop/Quantum-Algorithms/Deutsch%20Oracle/Operations.qs", OperationFunctor.Body, 115, -1)]
     public partial class Clear : Operation<(Qubit,Qubit), QVoid>, ICallable
     {
         public Clear(IOperationFactory m) : base(m)
@@ -418,9 +418,9 @@ namespace Deutsch_Oracle
         public override Func<(Qubit,Qubit), QVoid> Body => (__in__) =>
         {
             var (q1,q2) = __in__;
-#line 117 "C:/Users/zjjc1/Desktop/Deutsch%20Oracle/Deutsch%20Oracle/Operations.qs"
+#line 117 "c:/Users/zjjc1/Desktop/Quantum-Algorithms/Deutsch%20Oracle/Operations.qs"
             Set.Apply((Result.Zero, q1));
-#line 118 "C:/Users/zjjc1/Desktop/Deutsch%20Oracle/Deutsch%20Oracle/Operations.qs"
+#line 118 "c:/Users/zjjc1/Desktop/Quantum-Algorithms/Deutsch%20Oracle/Operations.qs"
             Set.Apply((Result.Zero, q2));
 #line hidden
             return QVoid.Instance;
