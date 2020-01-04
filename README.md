@@ -1,7 +1,7 @@
 # Quantum Algorithms
 
 ## Prerequisite
-[.NET Core SDK](https://www.microsoft.com/net/download)
+[.NET Core SDK v3](https://www.microsoft.com/net/download)
 
 ## Run
 
