@@ -8,3 +8,6 @@
 ```
 dotnet run
 ```
+
+## Wiki
+check out the wiki for basic explanation and notes on individual algorithms
