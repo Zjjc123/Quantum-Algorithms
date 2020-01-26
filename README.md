@@ -10,4 +10,4 @@ dotnet run
 ```
 
 ## Wiki
-check out the wiki for basic explanation and notes on individual algorithms
+check out the [Wiki](https://github.com/Zjjc123/Quantum-Algorithms/wiki) for basic explanation and notes on individual algorithms
