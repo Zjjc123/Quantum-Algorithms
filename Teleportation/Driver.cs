@@ -9,9 +9,15 @@ namespace Teleportation
     {
         static void Main(string[] args)
         {
-            using (var qsim = new QuantumSimulator())
+             using (var qsim = new QuantumSimulator())
             {
-                HelloQ.Run(qsim).Wait();
+                Console.WriteLine("Enter Start State (0, 1)): ");
+                int a = int.Parse(Console.ReadLine());
+
+                var res = TestTeleportation.Run(qsim, a).Result;
+                var state = res;
+                                
+                Console.WriteLine("Result: " + state);
             }
         }
     }
