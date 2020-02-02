@@ -5,30 +5,306 @@ using Microsoft.Quantum.Core;
 using Microsoft.Quantum.Intrinsic;
 using Microsoft.Quantum.Simulation.Core;
 
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Teleportation\",\"Name\":\"HelloQ\"},\"Attributes\":[],\"SourceFile\":\"c:/Users/zjjc1/Desktop/Quantum-Algorithms/Teleportation/Operations.qs\",\"Position\":{\"Item1\":5,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":17}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Teleportation\",\"Name\":\"HelloQ\"},\"Attributes\":[],\"SourceFile\":\"c:/Users/zjjc1/Desktop/Quantum-Algorithms/Teleportation/Operations.qs\",\"Position\":{\"Item1\":5,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":17}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Teleportation\",\"Name\":\"TestTeleportation\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/zjjc1/Desktop/Quantum-Algorithms/Teleportation/Operations.qs\",\"Position\":{\"Item1\":6,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":28}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"State\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":29},\"Item2\":{\"Line\":1,\"Column\":34}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"Int\"},\"ReturnType\":{\"Case\":\"Int\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Teleportation\",\"Name\":\"TestTeleportation\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/zjjc1/Desktop/Quantum-Algorithms/Teleportation/Operations.qs\",\"Position\":{\"Item1\":6,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":28}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Teleportation\",\"Name\":\"Teleport\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/zjjc1/Desktop/Quantum-Algorithms/Teleportation/Operations.qs\",\"Position\":{\"Item1\":48,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":19}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"SendQubit\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":21},\"Item2\":{\"Line\":1,\"Column\":30}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"RecieveQubit\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":39},\"Item2\":{\"Line\":1,\"Column\":51}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"}]]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Teleportation\",\"Name\":\"Teleport\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/zjjc1/Desktop/Quantum-Algorithms/Teleportation/Operations.qs\",\"Position\":{\"Item1\":48,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":19}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Teleportation\",\"Name\":\"Entangle\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/zjjc1/Desktop/Quantum-Algorithms/Teleportation/Operations.qs\",\"Position\":{\"Item1\":95,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":19}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"Qubit1\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":21},\"Item2\":{\"Line\":1,\"Column\":27}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"Qubit2\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":36},\"Item2\":{\"Line\":1,\"Column\":42}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"}]]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Teleportation\",\"Name\":\"Entangle\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/zjjc1/Desktop/Quantum-Algorithms/Teleportation/Operations.qs\",\"Position\":{\"Item1\":95,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":19}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Teleportation\",\"Name\":\"Set\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/zjjc1/Desktop/Quantum-Algorithms/Teleportation/Operations.qs\",\"Position\":{\"Item1\":101,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":14}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"desired\"]},\"Type\":{\"Case\":\"Result\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":15},\"Item2\":{\"Line\":1,\"Column\":22}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q1\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":33},\"Item2\":{\"Line\":1,\"Column\":35}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Result\"},{\"Case\":\"Qubit\"}]]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Teleportation\",\"Name\":\"Set\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/zjjc1/Desktop/Quantum-Algorithms/Teleportation/Operations.qs\",\"Position\":{\"Item1\":101,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":14}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Teleportation\",\"Name\":\"Clear\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/zjjc1/Desktop/Quantum-Algorithms/Teleportation/Operations.qs\",\"Position\":{\"Item1\":109,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":16}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q1\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":17},\"Item2\":{\"Line\":1,\"Column\":19}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q2\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":28},\"Item2\":{\"Line\":1,\"Column\":30}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"}]]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Teleportation\",\"Name\":\"Clear\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/zjjc1/Desktop/Quantum-Algorithms/Teleportation/Operations.qs\",\"Position\":{\"Item1\":109,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":16}},\"Documentation\":[]}")]
 #line hidden
 namespace Teleportation
 {
-    [SourceLocation("c:/Users/zjjc1/Desktop/Quantum-Algorithms/Teleportation/Operations.qs", OperationFunctor.Body, 6, -1)]
-    public partial class HelloQ : Operation<QVoid, QVoid>, ICallable
+    [SourceLocation("C:/Users/zjjc1/Desktop/Quantum-Algorithms/Teleportation/Operations.qs", OperationFunctor.Body, 7, 49)]
+    public partial class TestTeleportation : Operation<Int64, Int64>, ICallable
     {
-        public HelloQ(IOperationFactory m) : base(m)
+        public TestTeleportation(IOperationFactory m) : base(m)
         {
         }
 
-        String ICallable.Name => "HelloQ";
-        String ICallable.FullName => "Teleportation.HelloQ";
-        protected ICallable<String, QVoid> MicrosoftQuantumIntrinsicMessage
+        String ICallable.Name => "TestTeleportation";
+        String ICallable.FullName => "Teleportation.TestTeleportation";
+        protected Allocate Allocate
         {
             get;
             set;
         }
 
-        public override Func<QVoid, QVoid> Body => (__in__) =>
+        protected ICallable<Qubit, Result> MicrosoftQuantumIntrinsicM
         {
-#line 7 "c:/Users/zjjc1/Desktop/Quantum-Algorithms/Teleportation/Operations.qs"
-            MicrosoftQuantumIntrinsicMessage.Apply("Hello quantum world!");
+            get;
+            set;
+        }
+
+        protected Release Release
+        {
+            get;
+            set;
+        }
+
+        protected ICallable<Qubit, QVoid> MicrosoftQuantumIntrinsicReset
+        {
+            get;
+            set;
+        }
+
+        protected ICallable<(Qubit,Qubit), QVoid> Clear
+        {
+            get;
+            set;
+        }
+
+        protected ICallable<(Result,Qubit), QVoid> Set
+        {
+            get;
+            set;
+        }
+
+        protected ICallable<(Qubit,Qubit), QVoid> Teleport
+        {
+            get;
+            set;
+        }
+
+        public override Func<Int64, Int64> Body => (__in__) =>
+        {
+            var State = __in__;
+#line hidden
+            {
+#line 9 "C:/Users/zjjc1/Desktop/Quantum-Algorithms/Teleportation/Operations.qs"
+                var qbits = Allocate.Apply(2L);
+#line hidden
+                System.Runtime.ExceptionServices.ExceptionDispatchInfo __arg1__ = null;
+                try
+                {
+#line 11 "C:/Users/zjjc1/Desktop/Quantum-Algorithms/Teleportation/Operations.qs"
+                    var result = Result.Zero;
+#line 14 "C:/Users/zjjc1/Desktop/Quantum-Algorithms/Teleportation/Operations.qs"
+                    var A = qbits[0L];
+#line 15 "C:/Users/zjjc1/Desktop/Quantum-Algorithms/Teleportation/Operations.qs"
+                    var B = qbits[1L];
+#line 17 "C:/Users/zjjc1/Desktop/Quantum-Algorithms/Teleportation/Operations.qs"
+                    Clear.Apply((A, B));
+#line 19 "C:/Users/zjjc1/Desktop/Quantum-Algorithms/Teleportation/Operations.qs"
+                    if ((State == 1L))
+                    {
+#line 21 "C:/Users/zjjc1/Desktop/Quantum-Algorithms/Teleportation/Operations.qs"
+                        Set.Apply((Result.One, A));
+                    }
+
+#line 25 "C:/Users/zjjc1/Desktop/Quantum-Algorithms/Teleportation/Operations.qs"
+                    Teleport.Apply((A, B));
+#line 29 "C:/Users/zjjc1/Desktop/Quantum-Algorithms/Teleportation/Operations.qs"
+                    result = MicrosoftQuantumIntrinsicM.Apply(B);
+#line 32 "C:/Users/zjjc1/Desktop/Quantum-Algorithms/Teleportation/Operations.qs"
+                    MicrosoftQuantumIntrinsicReset.Apply(qbits[0L]);
+#line 33 "C:/Users/zjjc1/Desktop/Quantum-Algorithms/Teleportation/Operations.qs"
+                    MicrosoftQuantumIntrinsicReset.Apply(qbits[1L]);
+#line 35 "C:/Users/zjjc1/Desktop/Quantum-Algorithms/Teleportation/Operations.qs"
+                    var r = 0L;
+#line 37 "C:/Users/zjjc1/Desktop/Quantum-Algorithms/Teleportation/Operations.qs"
+                    if ((result == Result.One))
+                    {
+#line 39 "C:/Users/zjjc1/Desktop/Quantum-Algorithms/Teleportation/Operations.qs"
+                        r = 1L;
+                    }
+
+#line 42 "C:/Users/zjjc1/Desktop/Quantum-Algorithms/Teleportation/Operations.qs"
+                    return r;
+                }
+#line hidden
+                catch (Exception __arg2__)
+                {
+                    __arg1__ = System.Runtime.ExceptionServices.ExceptionDispatchInfo.Capture(__arg2__);
+                    throw;
+                }
+#line hidden
+                finally
+                {
+                    if (__arg1__ != null)
+                    {
+                        __arg1__.Throw();
+                    }
+
+#line hidden
+                    Release.Apply(qbits);
+                }
+            }
+        }
+
+        ;
+        public override void Init()
+        {
+            this.Allocate = this.Factory.Get<Allocate>(typeof(Microsoft.Quantum.Intrinsic.Allocate));
+            this.MicrosoftQuantumIntrinsicM = this.Factory.Get<ICallable<Qubit, Result>>(typeof(Microsoft.Quantum.Intrinsic.M));
+            this.Release = this.Factory.Get<Release>(typeof(Microsoft.Quantum.Intrinsic.Release));
+            this.MicrosoftQuantumIntrinsicReset = this.Factory.Get<ICallable<Qubit, QVoid>>(typeof(Microsoft.Quantum.Intrinsic.Reset));
+            this.Clear = this.Factory.Get<ICallable<(Qubit,Qubit), QVoid>>(typeof(Clear));
+            this.Set = this.Factory.Get<ICallable<(Result,Qubit), QVoid>>(typeof(Set));
+            this.Teleport = this.Factory.Get<ICallable<(Qubit,Qubit), QVoid>>(typeof(Teleport));
+        }
+
+        public override IApplyData __dataIn(Int64 data) => new QTuple<Int64>(data);
+        public override IApplyData __dataOut(Int64 data) => new QTuple<Int64>(data);
+        public static System.Threading.Tasks.Task<Int64> Run(IOperationFactory __m__, Int64 State)
+        {
+            return __m__.Run<TestTeleportation, Int64, Int64>(State);
+        }
+    }
+
+    [SourceLocation("C:/Users/zjjc1/Desktop/Quantum-Algorithms/Teleportation/Operations.qs", OperationFunctor.Body, 49, 96)]
+    public partial class Teleport : Operation<(Qubit,Qubit), QVoid>, ICallable
+    {
+        public Teleport(IOperationFactory m) : base(m)
+        {
+        }
+
+        public class In : QTuple<(Qubit,Qubit)>, IApplyData
+        {
+            public In((Qubit,Qubit) data) : base(data)
+            {
+            }
+
+            System.Collections.Generic.IEnumerable<Qubit> IApplyData.Qubits
+            {
+                get
+                {
+                    yield return Data.Item1;
+                    yield return Data.Item2;
+                }
+            }
+        }
+
+        String ICallable.Name => "Teleport";
+        String ICallable.FullName => "Teleportation.Teleport";
+        protected Allocate Allocate
+        {
+            get;
+            set;
+        }
+
+        protected IUnitary<(Qubit,Qubit)> MicrosoftQuantumIntrinsicCNOT
+        {
+            get;
+            set;
+        }
+
+        protected IUnitary<Qubit> MicrosoftQuantumIntrinsicH
+        {
+            get;
+            set;
+        }
+
+        protected ICallable<Qubit, Result> MicrosoftQuantumIntrinsicM
+        {
+            get;
+            set;
+        }
+
+        protected Release Release
+        {
+            get;
+            set;
+        }
+
+        protected ICallable<Qubit, QVoid> MicrosoftQuantumIntrinsicReset
+        {
+            get;
+            set;
+        }
+
+        protected IUnitary<Qubit> MicrosoftQuantumIntrinsicX
+        {
+            get;
+            set;
+        }
+
+        protected IUnitary<Qubit> MicrosoftQuantumIntrinsicZ
+        {
+            get;
+            set;
+        }
+
+        protected ICallable<(Qubit,Qubit), QVoid> Clear
+        {
+            get;
+            set;
+        }
+
+        protected ICallable<(Qubit,Qubit), QVoid> Entangle
+        {
+            get;
+            set;
+        }
+
+        public override Func<(Qubit,Qubit), QVoid> Body => (__in__) =>
+        {
+            var (SendQubit,RecieveQubit) = __in__;
+#line hidden
+            {
+#line 51 "C:/Users/zjjc1/Desktop/Quantum-Algorithms/Teleportation/Operations.qs"
+                var qbits = Allocate.Apply(1L);
+#line hidden
+                System.Runtime.ExceptionServices.ExceptionDispatchInfo __arg1__ = null;
+                try
+                {
+#line 55 "C:/Users/zjjc1/Desktop/Quantum-Algorithms/Teleportation/Operations.qs"
+                    var cResult = Result.Zero;
+#line 56 "C:/Users/zjjc1/Desktop/Quantum-Algorithms/Teleportation/Operations.qs"
+                    var aResult = Result.Zero;
+#line 59 "C:/Users/zjjc1/Desktop/Quantum-Algorithms/Teleportation/Operations.qs"
+                    var A = qbits[0L];
+#line 62 "C:/Users/zjjc1/Desktop/Quantum-Algorithms/Teleportation/Operations.qs"
+                    Clear.Apply((A, RecieveQubit));
+#line 65 "C:/Users/zjjc1/Desktop/Quantum-Algorithms/Teleportation/Operations.qs"
+                    Entangle.Apply((A, RecieveQubit));
+#line 71 "C:/Users/zjjc1/Desktop/Quantum-Algorithms/Teleportation/Operations.qs"
+                    MicrosoftQuantumIntrinsicCNOT.Apply((SendQubit, A));
+#line 72 "C:/Users/zjjc1/Desktop/Quantum-Algorithms/Teleportation/Operations.qs"
+                    MicrosoftQuantumIntrinsicH.Apply(SendQubit);
+#line 75 "C:/Users/zjjc1/Desktop/Quantum-Algorithms/Teleportation/Operations.qs"
+                    cResult = MicrosoftQuantumIntrinsicM.Apply(SendQubit);
+#line 76 "C:/Users/zjjc1/Desktop/Quantum-Algorithms/Teleportation/Operations.qs"
+                    aResult = MicrosoftQuantumIntrinsicM.Apply(A);
+#line 79 "C:/Users/zjjc1/Desktop/Quantum-Algorithms/Teleportation/Operations.qs"
+                    if ((cResult == Result.One))
+                    {
+#line 81 "C:/Users/zjjc1/Desktop/Quantum-Algorithms/Teleportation/Operations.qs"
+                        MicrosoftQuantumIntrinsicZ.Apply(RecieveQubit);
+                    }
+
+#line 83 "C:/Users/zjjc1/Desktop/Quantum-Algorithms/Teleportation/Operations.qs"
+                    if ((aResult == Result.One))
+                    {
+#line 85 "C:/Users/zjjc1/Desktop/Quantum-Algorithms/Teleportation/Operations.qs"
+                        MicrosoftQuantumIntrinsicX.Apply(RecieveQubit);
+                    }
+
+#line 89 "C:/Users/zjjc1/Desktop/Quantum-Algorithms/Teleportation/Operations.qs"
+                    MicrosoftQuantumIntrinsicReset.Apply(qbits[0L]);
+                }
+#line hidden
+                catch (Exception __arg2__)
+                {
+                    __arg1__ = System.Runtime.ExceptionServices.ExceptionDispatchInfo.Capture(__arg2__);
+                    throw;
+                }
+#line hidden
+                finally
+                {
+                    if (__arg1__ != null)
+                    {
+                        __arg1__.Throw();
+                    }
+
+#line hidden
+                    Release.Apply(qbits);
+                }
+            }
+
 #line hidden
             return QVoid.Instance;
         }
@@ -36,14 +312,207 @@ namespace Teleportation
         ;
         public override void Init()
         {
-            this.MicrosoftQuantumIntrinsicMessage = this.Factory.Get<ICallable<String, QVoid>>(typeof(Microsoft.Quantum.Intrinsic.Message));
+            this.Allocate = this.Factory.Get<Allocate>(typeof(Microsoft.Quantum.Intrinsic.Allocate));
+            this.MicrosoftQuantumIntrinsicCNOT = this.Factory.Get<IUnitary<(Qubit,Qubit)>>(typeof(Microsoft.Quantum.Intrinsic.CNOT));
+            this.MicrosoftQuantumIntrinsicH = this.Factory.Get<IUnitary<Qubit>>(typeof(Microsoft.Quantum.Intrinsic.H));
+            this.MicrosoftQuantumIntrinsicM = this.Factory.Get<ICallable<Qubit, Result>>(typeof(Microsoft.Quantum.Intrinsic.M));
+            this.Release = this.Factory.Get<Release>(typeof(Microsoft.Quantum.Intrinsic.Release));
+            this.MicrosoftQuantumIntrinsicReset = this.Factory.Get<ICallable<Qubit, QVoid>>(typeof(Microsoft.Quantum.Intrinsic.Reset));
+            this.MicrosoftQuantumIntrinsicX = this.Factory.Get<IUnitary<Qubit>>(typeof(Microsoft.Quantum.Intrinsic.X));
+            this.MicrosoftQuantumIntrinsicZ = this.Factory.Get<IUnitary<Qubit>>(typeof(Microsoft.Quantum.Intrinsic.Z));
+            this.Clear = this.Factory.Get<ICallable<(Qubit,Qubit), QVoid>>(typeof(Clear));
+            this.Entangle = this.Factory.Get<ICallable<(Qubit,Qubit), QVoid>>(typeof(Entangle));
         }
 
-        public override IApplyData __dataIn(QVoid data) => data;
+        public override IApplyData __dataIn((Qubit,Qubit) data) => new In(data);
         public override IApplyData __dataOut(QVoid data) => data;
-        public static System.Threading.Tasks.Task<QVoid> Run(IOperationFactory __m__)
+        public static System.Threading.Tasks.Task<QVoid> Run(IOperationFactory __m__, Qubit SendQubit, Qubit RecieveQubit)
         {
-            return __m__.Run<HelloQ, QVoid, QVoid>(QVoid.Instance);
+            return __m__.Run<Teleport, (Qubit,Qubit), QVoid>((SendQubit, RecieveQubit));
+        }
+    }
+
+    [SourceLocation("C:/Users/zjjc1/Desktop/Quantum-Algorithms/Teleportation/Operations.qs", OperationFunctor.Body, 96, 102)]
+    public partial class Entangle : Operation<(Qubit,Qubit), QVoid>, ICallable
+    {
+        public Entangle(IOperationFactory m) : base(m)
+        {
+        }
+
+        public class In : QTuple<(Qubit,Qubit)>, IApplyData
+        {
+            public In((Qubit,Qubit) data) : base(data)
+            {
+            }
+
+            System.Collections.Generic.IEnumerable<Qubit> IApplyData.Qubits
+            {
+                get
+                {
+                    yield return Data.Item1;
+                    yield return Data.Item2;
+                }
+            }
+        }
+
+        String ICallable.Name => "Entangle";
+        String ICallable.FullName => "Teleportation.Entangle";
+        protected IUnitary<(Qubit,Qubit)> MicrosoftQuantumIntrinsicCNOT
+        {
+            get;
+            set;
+        }
+
+        protected IUnitary<Qubit> MicrosoftQuantumIntrinsicH
+        {
+            get;
+            set;
+        }
+
+        public override Func<(Qubit,Qubit), QVoid> Body => (__in__) =>
+        {
+            var (Qubit1,Qubit2) = __in__;
+#line 98 "C:/Users/zjjc1/Desktop/Quantum-Algorithms/Teleportation/Operations.qs"
+            MicrosoftQuantumIntrinsicH.Apply(Qubit1);
+#line 99 "C:/Users/zjjc1/Desktop/Quantum-Algorithms/Teleportation/Operations.qs"
+            MicrosoftQuantumIntrinsicCNOT.Apply((Qubit1, Qubit2));
+#line hidden
+            return QVoid.Instance;
+        }
+
+        ;
+        public override void Init()
+        {
+            this.MicrosoftQuantumIntrinsicCNOT = this.Factory.Get<IUnitary<(Qubit,Qubit)>>(typeof(Microsoft.Quantum.Intrinsic.CNOT));
+            this.MicrosoftQuantumIntrinsicH = this.Factory.Get<IUnitary<Qubit>>(typeof(Microsoft.Quantum.Intrinsic.H));
+        }
+
+        public override IApplyData __dataIn((Qubit,Qubit) data) => new In(data);
+        public override IApplyData __dataOut(QVoid data) => data;
+        public static System.Threading.Tasks.Task<QVoid> Run(IOperationFactory __m__, Qubit Qubit1, Qubit Qubit2)
+        {
+            return __m__.Run<Entangle, (Qubit,Qubit), QVoid>((Qubit1, Qubit2));
+        }
+    }
+
+    [SourceLocation("C:/Users/zjjc1/Desktop/Quantum-Algorithms/Teleportation/Operations.qs", OperationFunctor.Body, 102, 110)]
+    public partial class Set : Operation<(Result,Qubit), QVoid>, ICallable
+    {
+        public Set(IOperationFactory m) : base(m)
+        {
+        }
+
+        public class In : QTuple<(Result,Qubit)>, IApplyData
+        {
+            public In((Result,Qubit) data) : base(data)
+            {
+            }
+
+            System.Collections.Generic.IEnumerable<Qubit> IApplyData.Qubits
+            {
+                get
+                {
+                    yield return Data.Item2;
+                }
+            }
+        }
+
+        String ICallable.Name => "Set";
+        String ICallable.FullName => "Teleportation.Set";
+        protected ICallable<Qubit, Result> MicrosoftQuantumIntrinsicM
+        {
+            get;
+            set;
+        }
+
+        protected IUnitary<Qubit> MicrosoftQuantumIntrinsicX
+        {
+            get;
+            set;
+        }
+
+        public override Func<(Result,Qubit), QVoid> Body => (__in__) =>
+        {
+            var (desired,q1) = __in__;
+#line 104 "C:/Users/zjjc1/Desktop/Quantum-Algorithms/Teleportation/Operations.qs"
+            if ((desired != MicrosoftQuantumIntrinsicM.Apply(q1)))
+            {
+#line 105 "C:/Users/zjjc1/Desktop/Quantum-Algorithms/Teleportation/Operations.qs"
+                MicrosoftQuantumIntrinsicX.Apply(q1);
+            }
+
+#line hidden
+            return QVoid.Instance;
+        }
+
+        ;
+        public override void Init()
+        {
+            this.MicrosoftQuantumIntrinsicM = this.Factory.Get<ICallable<Qubit, Result>>(typeof(Microsoft.Quantum.Intrinsic.M));
+            this.MicrosoftQuantumIntrinsicX = this.Factory.Get<IUnitary<Qubit>>(typeof(Microsoft.Quantum.Intrinsic.X));
+        }
+
+        public override IApplyData __dataIn((Result,Qubit) data) => new In(data);
+        public override IApplyData __dataOut(QVoid data) => data;
+        public static System.Threading.Tasks.Task<QVoid> Run(IOperationFactory __m__, Result desired, Qubit q1)
+        {
+            return __m__.Run<Set, (Result,Qubit), QVoid>((desired, q1));
+        }
+    }
+
+    [SourceLocation("C:/Users/zjjc1/Desktop/Quantum-Algorithms/Teleportation/Operations.qs", OperationFunctor.Body, 110, -1)]
+    public partial class Clear : Operation<(Qubit,Qubit), QVoid>, ICallable
+    {
+        public Clear(IOperationFactory m) : base(m)
+        {
+        }
+
+        public class In : QTuple<(Qubit,Qubit)>, IApplyData
+        {
+            public In((Qubit,Qubit) data) : base(data)
+            {
+            }
+
+            System.Collections.Generic.IEnumerable<Qubit> IApplyData.Qubits
+            {
+                get
+                {
+                    yield return Data.Item1;
+                    yield return Data.Item2;
+                }
+            }
+        }
+
+        String ICallable.Name => "Clear";
+        String ICallable.FullName => "Teleportation.Clear";
+        protected ICallable<(Result,Qubit), QVoid> Set
+        {
+            get;
+            set;
+        }
+
+        public override Func<(Qubit,Qubit), QVoid> Body => (__in__) =>
+        {
+            var (q1,q2) = __in__;
+#line 112 "C:/Users/zjjc1/Desktop/Quantum-Algorithms/Teleportation/Operations.qs"
+            Set.Apply((Result.Zero, q1));
+#line 113 "C:/Users/zjjc1/Desktop/Quantum-Algorithms/Teleportation/Operations.qs"
+            Set.Apply((Result.Zero, q2));
+#line hidden
+            return QVoid.Instance;
+        }
+
+        ;
+        public override void Init()
+        {
+            this.Set = this.Factory.Get<ICallable<(Result,Qubit), QVoid>>(typeof(Set));
+        }
+
+        public override IApplyData __dataIn((Qubit,Qubit) data) => new In(data);
+        public override IApplyData __dataOut(QVoid data) => data;
+        public static System.Threading.Tasks.Task<QVoid> Run(IOperationFactory __m__, Qubit q1, Qubit q2)
+        {
+            return __m__.Run<Clear, (Qubit,Qubit), QVoid>((q1, q2));
         }
     }
 }

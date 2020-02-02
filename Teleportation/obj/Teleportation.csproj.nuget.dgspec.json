@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\zjjc1\\Desktop\\Quantum-Algorithms\\Teleportation\\Teleportation.csproj": {}
+    "C:\\Users\\zjjc1\\Desktop\\Quantum-Algorithms\\Teleportation\\Teleportation.csproj": {}
   },
   "projects": {
-    "c:\\Users\\zjjc1\\Desktop\\Quantum-Algorithms\\Teleportation\\Teleportation.csproj": {
+    "C:\\Users\\zjjc1\\Desktop\\Quantum-Algorithms\\Teleportation\\Teleportation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\zjjc1\\Desktop\\Quantum-Algorithms\\Teleportation\\Teleportation.csproj",
+        "projectUniqueName": "C:\\Users\\zjjc1\\Desktop\\Quantum-Algorithms\\Teleportation\\Teleportation.csproj",
         "projectName": "Teleportation",
-        "projectPath": "c:\\Users\\zjjc1\\Desktop\\Quantum-Algorithms\\Teleportation\\Teleportation.csproj",
+        "projectPath": "C:\\Users\\zjjc1\\Desktop\\Quantum-Algorithms\\Teleportation\\Teleportation.csproj",
         "packagesPath": "C:\\Users\\zjjc1\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\zjjc1\\Desktop\\Quantum-Algorithms\\Teleportation\\obj\\",
+        "outputPath": "C:\\Users\\zjjc1\\Desktop\\Quantum-Algorithms\\Teleportation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
